@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://res.cloudinary.com/dfkn1kzs0/image/upload/v1589729734/bg-pattern-desktop_sya0s8.svg);
+    background-size: cover;
+    background-position: center;
+    padding-top:50px ;
+}
+
+.header{
+    padding-bottom:20px;
+}
+.header h1{
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: #ce9797;
+}
+
+.butn0{
+    width: 100%;
+}
+
+.label{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: black;
+}
+.sec-row-wrapper{
+    margin-bottom: 10px;
+}
+.disp-row{
+    margin-bottom: 10px;
+}
+.butn1{
+    width:100%;
+}
+.butn2{
+    width:100%;
+}
+.butn3{
+    width:100%;
+}
+
+
+@media (max-width:767px){
+    .disp-row{
+        margin-bottom: 10px;
+    }
+    .butn0{
+        margin-top:15px;
+        width:100%;
+        
+    }
+    .butn1{
+        margin-top:15px;
+        width:100%;
+    }
+    .butn2{
+        margin-top: 15px;
+        width:100%;
+        
+    }
+    .butn3{
+        margin-top: 15px;
+        width:100%;
+        
+    }
+
+    body{
+        background: url(https://res.cloudinary.com/dfkn1kzs0/image/upload/v1589729734/bg-pattern-desktop_sya0s8.svg);
+        background-size: cover;
+        background-position: revert;
+        padding-top: 30px;
+    }
+}
